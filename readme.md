@@ -12,7 +12,7 @@ In order to submit assignments, please use the following steps
 
 1. [Fork this repo][1] so that you have a working version
 1. [Clone the forked repo][2] to your local computer
-1. Create a folder named with your name, example `dale-sande`
+1. Create a folder named with your name and the assignment, example `dale-sande-grids`
 1. Once completed with your assignment, commit code to the master branch and push to Github `git push origin master`
 1. From __your fork__ of the project, initiate a pull request to the parent repo
 
