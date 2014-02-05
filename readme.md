@@ -16,6 +16,13 @@ In order to submit assignments, please use the following steps
 1. Once completed with your assignment, commit code to the master branch and push to Github `git push origin master`
 1. From __your fork__ of the project, initiate a pull request to the parent repo
 
+### IMPORTANT!
+
+If the assignment requires that you install a development environment, please make this the first task you complete and then **submit your first pull request.**
+
+It is important to do this first so that the actual assignment is not confused within all the application structure. 
+
+
 ## Assignment review
 
 When a pull request is initiated, I will be notified of the update and comment on the submitted assignment via Github tools. 
