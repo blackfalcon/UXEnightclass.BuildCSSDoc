@@ -11,9 +11,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 
 $box: border-box;
 
-* {
-  @include box-sizing;
-}
+// * {
+//  @include box-sizing;
+//}
 
 article, aside, figure, footer, header, hgroup, nav, section {
   display: block;
@@ -152,29 +152,29 @@ a.button {
 // * Ok, this is where the fun starts.
 // *-------------------------------------------------------------------------------
 
-a:link {
-  -webkit-tap-highlight-color: $webkit-tap-hightlight;
-}
+//a:link {
+  //-webkit-tap-highlight-color: $webkit-tap-hightlight;
+//  }
 
-ins {
-  background-color: $ins-color;
-  color: black;
-  text-decoration: none;
-}
+//ins {
+//  background-color: $ins-color;
+ // color: black;
+ // text-decoration: none;
+//}
 
-mark {
-  background-color: $mark-color;
-  color: $primary-text;
-  font-style: italic;
-  font-weight: bold;
-}
+//mark {
+  //background-color: $mark-color;
+  //color: $primary-text;
+  //font-style: italic;
+  //font-weight: bold;
+//}
 
-::selection {
-  background: $selection-color;
-  color: $selection-text-color;
-}
+//::selection {
+ // background: $selection-color;
+  //color: $selection-text-color;
+//}
 
-::-moz-selection {
-  background: $selection-color;
-  color: $selection-text-color;
-}
+//::-moz-selection {
+  //background: $selection-color;
+  //color: $selection-text-color;
+//}
