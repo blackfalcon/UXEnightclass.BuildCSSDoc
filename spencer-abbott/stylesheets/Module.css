@@ -1,0 +1,225 @@
+.container {
+  background-color: #ccc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+a {
+  color: #672a12;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+a:hover {
+  color: #83381b;
+}
+
+.primary-nav {
+  padding: 0 .625em;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  width: 100%; 
+  background-color: #1d1d1d;
+}
+
+.primary-nav a {
+  padding: .3em;
+  margin: .4em;
+  min-width: 20%;
+  color: #ccc;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 1.6em;
+  text-decoration: none;
+}
+
+.primary-nav a:hover {
+  text-decoration: underline;
+}
+
+legend + ol {
+  padding-top: .5em;
+ }
+
+.product {
+    text-align: center;
+
+}
+
+.buy-it {
+  text-align: center;
+}
+
+.buy-it button {
+  padding: 1em 2em; 
+  font-size: 1.5em;
+}
+
+[class*="product-"] {
+  margin-bottom: 2em;
+}
+
+.product img{
+  width: 100%;
+  height: auto;
+}
+
+.social-media-container {
+  margin-bottom: 3em;
+}
+
+.social-media-center {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.social-media-center a {
+  padding: 0 2em;
+  text-decoration: none;
+  text-align: center;
+}
+
+address {
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:url('icon-fonts/icomoon.eot?y9xrd9');
+  src:url('icon-fonts/icomoon.eot?#iefixy9xrd9') format('embedded-opentype'),
+    url('icon-fonts/icomoon.woff?y9xrd9') format('woff'),
+    url('icon-fonts/icomoon.ttf?y9xrd9') format('truetype'),
+    url('icon-fonts/icomoon.svg?y9xrd9#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before, .icon-mail:before, .icon-twitter:before {
+  padding-right: .4em;
+}
+
+.icon-facebook:before {
+  content: "\e600";
+}
+.icon-mail:before {
+  content: "\e601";
+}
+.icon-twitter:before {
+  content: "\e602";
+}
+
+footer p{
+  position: relative;
+  font-size: .6em; 
+  text-align: center;
+  padding: 3em 0;
+  border-top: 1px solid #1d1d1d; 
+}
+
+.back-to-top {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
+
+
+/* #Tablet (Portrait)
+================================================== */
+
+  /* Note: Design for a width of 768px */
+
+@media only screen and (max-width: 959px) { 
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1.3em;
+
+}
+.primary-nav a {
+  font-size: 1.2em;
+}
+
+}
+
+
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+  /* Note: Design for a width of 320px */
+
+@media only screen and (max-width: 767px) {
+  .primary-nav {
+    padding: 0;
+}
+
+  .primary-nav a {
+    padding: .1em;
+  }
+
+  fieldset ol {
+    margin-left: 2em;
+    padding-left: 2em;
+  }
+
+}
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+  /* Note: Design for a width of 480px */
+
+@media only screen and (max-width: 767px) {
+  p, legend {
+    padding-left: .8em;
+  }
+
+  .primary-nav a {
+    font-size: .8em;
+  }
+
+  .social-media-center a {
+    font-size: .95em; 
+  }
+
+  .buy-it button {
+    width: 80%;
+  }
+}
+
+
+
+
+
+
+
