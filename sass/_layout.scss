@@ -1,28 +1,10 @@
-
-.l-header-box {
-  height: 12em;
-  background: #0e0505;
+.l-border-top {
+  border: 0.10em solid black;
 }
 
-.l-main-header {
-text-align: center;
-position: relative;
-bottom: 4em;
+.l-border-bottom {
+  border: 0.25em solid black;
+  margin-bottom: 5em;
 }
-
-.l-footer-box {
-text-align: center;
-border-top: 2px solid #666;
-margin-bottom: 1.3333333em;
-margin-top: 5em;
-padding: 1.333333em 0;
-}
-
-.l-footer {
-text-align: center;
-position: relative;
-bottom: 2em;
-}
-
 
 

@@ -1,54 +1,17 @@
-// web fonts
-@import url("http://fonts.googleapis.com/css?family=Oswald");
-
-$base-family: 'Oswald', sans-serif;
-
-.l-main-header {
-  color: white;
-  font-family: $base-family;
-  font-size: 2.75em;
+.t-header {
+  font-size: 5em;
+  margin-top: 0.50em;
 }
 
 
-.m-bootcamp-menu {
-  font-family: Futura;
-  font-size: 1em;
-  h1 {
-    font-size: 3em;
-  }
+.t-parag {
+  font-size: 0.40em;
 }
 
-.m-about > h1 {
-  font-size: 3em;
-  font-family: Futura;
-  font-weight: 400;
+.t-parag-work {
+  font-size: 0.75em;
 }
 
-.m-about > p {
-  font-size: 1.5em;
+.t-footer-text {
+  float: right;
 }
-
-
-
-.l-footer {
-  font-family: $base-family;
-  font-size: 2em;
-}
-
-.m-msgform {
-  font-family: Futura;
-  font-size: 1.5em;
-}
-
-.m-msgform h1 {
-  font-size: 1em;
-}
-
-
-
-
-
-
-
-
-

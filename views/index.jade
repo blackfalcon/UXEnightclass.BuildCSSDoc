@@ -3,62 +3,62 @@ html
   head
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
-    title  Ardon Bailey
+    title  Code Fellows
     link(rel="stylesheet" type="text/css" href="stylesheets/application.css")
+    link(rel="stylesheet" type="text/css" href="stylesheets/base.css")
+    link(rel="stylesheet" type="text/css" href="stylesheets/layout.css")
+    link(rel="stylesheet" type="text/css" href="stylesheets/skeleton.css")
     meta(name='viewport', content='width=device-width, initial-scale=1')
+
   body
-    .l-header-box
-    header.l-main-header
-      h1 Code Fellows
-      h2 Learn to Code
-      aside
-        form.f-search
-            input.f-search-box(type="search" placeholder="What you lookin for?")
-    section.m-bootcamp-menu
-      h1 What bootcamp is for you?
-      ul
-      li
-        a(href='#') Ruby on Rails
-      li
-        a(href='#') JavaScript
-      li
-        a(href='#') iOS
-      li
-        a(href='#') UX Engineering
-    .m-about-container
-    section.m-about
-      h1 Some Dummy Text
-      p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-    section.m-msgform
-      h1 MESSAGE US
-      form.f-msg-box
-        ul
-          li
-            input.name-box.form-box(name='first_name', placeholder='First Name')
-          li
-            input.email-box.form-box(name='email', placeholder='Email Address')
-          li
-            input.phone-box.form-box(type="tel", name='tel', placeholder='(555) 555-555')
-          li
-            input.m-program-box.form-box(type='text', list='program-level')
-            datalist
-            option(value='Novice')
-            option(value='Ehh ok')
-            option(value='Coding Ninja')
-          li
-            input.message-box.form-box(name='text', placeholder='What the hell you tryin to tell me?')
-          li
-            input.b-msg-submit(type="submit" value="Submit")
-    .l-footer-box
-  footer.l-footer
-    section.v-icons
-     ul
-      li
-        a(href="#" class="icon-twitter" target="_blank")
-      li
-        a(href="#" class="icon-facebook" target="_blank")
-      li
-        a(href="#" class="icon-google-plus" target="_blank")
-      li
-        a(href="#" class="icon-github" target="_blank")
-    script (src="//localhost:35729/livereload.js")
+    .container
+      .sixteen.columns
+        header
+         h1.t-header Pros & Cons
+         h5 Ardon Bailey
+      .sixteen.columns
+        .l-border-top
+
+        section.m-lorem
+      .one-third.column
+        h5 Please Work
+          p.t-parag-work Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock
+      .one-third.column
+        h5 Please Work
+          p.t-parag-work Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock
+      .one-third.column
+        h5 Please Work
+          p.t-parag-work Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock
+      .sixteen.columns
+        section.flex-container
+          .flex-item-one
+            p This is an item
+          .flex-item-two
+            p This is an item
+          .flex-item-one
+            p This is an item
+      .eight.columns
+        h2 Pros and Cons
+          p.t-parag Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+      .eight.columns
+        h2 Pros and Cons
+          p.t-parag Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+      .eight.columns
+        .m-rel-box-one
+          p
+            .m-rel-box-two
+              p Absolute!
+      .eight.columns
+        .m-rel-box-one
+          p
+            .m-rel-box-two
+              p Vodka!
+
+
+      //footer
+      .sixteen.columns
+        .l-border-bottom
+        section
+          p.t-footer-text Ardon Bailey
+
