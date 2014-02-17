@@ -1,3 +1,4 @@
+//applications
 // App Config - this is where most of your magic will happen
 // ---------------------------------------------------------
 @import "config";  // Editing the config file sets the theme for the project
@@ -10,18 +11,15 @@
 
 // Standard CSS reset stuff here
 // ---------------------------------------------------------
-@import "reset";
 
 // Base
 @import "typography";
 @import "forms";
-@import "buttons";
 
 //layout
 @import "layout";
 
 //modules
-
 @import "modules";
 
 
