@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Basic Page Needs
+    ================================================== -->  
+    <meta charset="utf-8"> 
+    <title>My CSS Project</title>
+    <meta name="description" content="The Store Everyone Loves">
+    <meta name="author" content="Spencer Abbott">
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS
+    ================================================== -->
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <!-- <link rel="stylesheet" href="http://i.icomoon.io/public/temp/355eabe0de/UntitledProject1/style.css"> -->
+    <link rel="stylesheet" href="stylesheets/reset.css">
+    <link rel="stylesheet" href="stylesheets/layout.css">
+    <link rel="stylesheet" href="stylesheets/module.css"> 
+  </head>
+  <body>
+    <div class="container">
+        <section class="sixteen columns alpha omega">
+          <nav class="primary-nav">
+            <a class="flex-item" href="#home">Home</a>
+            <a class="flex-item" href="#products">Products</a>
+            <a class="flex-item" href="#purchase">Purchase</a>
+            <a class="flex-item" href="#contact">Contact</a>  
+          </nav>
+        </section>
+      <div class="clearfix"></div>
+      <section class="twelve columns offset-by-two" id="home">
+        <h1 class="title">That One Store Everyone Loves</h1>
+        <h2>What a Great Store!</h2>  
+        <p>Hi, and welcome to my store. If you have not been to my store, I want to give you an extra welcome to my store.</p>
+        <p>Here is some more stuff about the stuff regarding my store. Built by robots and coffee, this store was developed to learn about how to make a website.</p>
+      </section>
+      <div class="clearfix"></div>
+      <section id="products" class="twelve columns offset-by-two">
+        <h2>Products</h2>
+        <a class="four columns alpha product product-1" href="#"><img src="img/Product-1-large.jpg" srcset="img/Product-1-2x.jpg 2x" alt="Product 1" height="420" width="630" >Item 1</a>
+        <a class="four columns product product-2" href="#"><img src="img/Product-2-large.jpg" srcset="img/Product-2-2x.jpg 2x" alt="Product 1" height="420" width="630" >Item 2</a>
+        <a class="four columns omega product product-3" href="#"><img src="img/product-3-large.jpg" srcset="img/Product-3-2x.jpg 2x" alt="Product 1" height="420" width="630" >Item 3</a>
+      </section>
+      <section id="purchase" class="ten columns offset-by-three">
+        <h2>Purchase</h2> 
+        <form>
+          <fieldset class="five columns alpha">
+            <legend>Select Item</legend>
+            <ol>
+              <li>
+                <label for="item">Select item</label>
+                <select for="item">
+                  <option value="item1">Item 1</option>
+                  <option value="item2">Item 2</option>
+                  <option value="item3">Item 3</option>
+                </select>
+              </li>
+              <li>
+                <label for="qty">Quantity</label>
+                <input id="qty" name="qty" type="number" required> 
+              </li>
+            </ol>
+          </fieldset>
+          <fieldset class="five columns omega">
+            <legend>Let's Get Personal</legend>
+            <ol>
+              <li>
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="First and last name" required>
+              </li> 
+              <li>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="example@domain.com" required>
+              </li>
+              <li>
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" type=tel placeholder="###-###-####" required>
+              </li>
+            </ol> 
+          </fieldset>
+          <div class="clearfix"></div>
+          <fieldset class="five columns alpha">
+            <legend>Billing Address</legend>
+            <ol>
+              <li>
+                <label for="address">Address</label>
+                <textarea id="address" name="address" rows="3" required></textarea>
+              </li>
+              <li>
+                <label for="zipcode">Zip Code</label>
+                <input id="zipcode" name="zipcode" type="text" required>
+              </li>
+              <li>
+                <label for="country">Country</label>
+                <input id="country" name="country" type="text" required>
+              </li>
+            </ol>     
+          </fieldset>
+          <fieldset class="five columns omega">
+            <legend>Card Details</legend>
+            <ol>
+              <li>
+                <fieldset class="normal-li">
+                  <legend>Card Type</legend>
+                  <ul>
+                    <li>
+                      <input id="visa" name="cardtype" type="radio">
+                      <label for="visa">VISA</label>
+                    </li>
+                    <li>
+                      <input id="amex" name="cardtype" type="radio">
+                      <label for="amex">American Express</label>
+                    </li>
+                    <li>
+                      <input id="mastercard" name="cardtype" type="radio">
+                      <label for="masercard">Mastercard</label>
+                    </li>                               
+                  </ul>
+                </fieldset>
+              </li>
+              <li>
+                <label for="cardnumber">Card Number</label>
+                <input id="cardnumber" name="cardnumber" type="number" required> 
+              </li>
+              <li>
+                <label for="secure">Security code</label>
+                <input id="secure" name="secure" type="number" required>
+              </li>
+              <li>
+                <label for="namecard">Name on card</label>
+                <input id="namecard" name="namecard" type="text" placeholder="As appears on card" required>
+              </li>                       
+            </ol>
+          </fieldset>
+          <div class="clearfix"></div>
+          <fieldset class="ten columns alpha omega buy-it">
+            <button type=submit>Buy it!</button>
+          </fieldset> 
+         </form>
+      </section>
+      <section id="contact">
+      <aside class="social-media-container sixteen columns">
+        <h1>Connect</h1>
+          <div class="social-media-center">
+            <a class="icon-twitter" href="#">Twitter</a>
+            <a class="icon-facebook" href="#">Facebook</a>
+            <address>
+              <a class="icon-mail" href="mailto:SpencerEAbbott@gmail.com">Email</a>
+            </address>
+          </div>
+      </aside>
+      <div class="clearfix"></div>
+      <footer>
+        <p>&copy; 2014 Spencer and things, LLC. All Rights Reserved.</p>
+        <a href="#"><button class="back-to-top">Back to Top</button></a>
+      </footer> 
+      </div>
+  </body>
+</html>

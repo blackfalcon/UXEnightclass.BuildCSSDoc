@@ -1,0 +1,19 @@
+[class*="icon-"] {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background-image: url(sprites.svg);
+	background-repeat: no-repeat;
+}
+.icon-facebook {
+	background-position: 0 0;
+	width: 32px;
+}
+.icon-mail {
+	background-position: -48px 0;
+	width: 32px;
+}
+.icon-twitter {
+	background-position: -96px 0;
+	width: 32px;
+}
