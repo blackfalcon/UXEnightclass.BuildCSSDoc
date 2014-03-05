@@ -1,0 +1,56 @@
+.t-header {
+  font-size: 5em;
+  margin-top: 0.5em; }
+
+.t-parag {
+  font-size: 0.4em; }
+
+.t-parag-work {
+  font-size: 0.75em; }
+
+.t-footer-text {
+  float: right; }
+
+.l-border-top {
+  border: 0.1em solid black; }
+
+.l-border-bottom {
+  border: 0.25em solid black;
+  margin-bottom: 5em; }
+
+.m-lorem {
+  margin-top: 2em; }
+
+.flex-container {
+  display: flex;
+  width: inherit;
+  height: 9em; }
+
+.flex-item-one {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  flex: 1;
+  background-color: #E8E8E8; }
+
+.flex-item-two {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  flex: 2;
+  background-color: #E8E8E8; }
+
+.m-rel-box-one {
+  position: relative;
+  top: 1em;
+  width: 29em;
+  height: 4em;
+  padding: 3px;
+  border: 2px solid #000000;
+  margin-bottom: 2em; }
+
+.m-rel-box-two {
+  position: absolute;
+  bottom: -0.3em;
+  width: 50px;
+  padding: 7px; }

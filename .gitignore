@@ -1,5 +1,10 @@
 # OS generated files #
 ######################
+
+
+# No node packages
+node_modules/
+
 .DS_Store
 .DS_Store?
 ._*
