@@ -1,6 +1,7 @@
 # OS generated files #
 ######################
 
+public/stylesheets/*.css
 
 # No node packages
 node_modules/
