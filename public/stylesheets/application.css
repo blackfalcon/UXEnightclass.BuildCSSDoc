@@ -43,9 +43,9 @@
 .m-rel-box-one {
   position: relative;
   top: 1em;
-  width: 29em;
+  width: 98%;
   height: 4em;
-  padding: 3px;
+  padding: 1px;
   border: 2px solid #000000;
   margin-bottom: 2em; }
 
@@ -54,3 +54,22 @@
   bottom: -0.3em;
   width: 50px;
   padding: 7px; }
+
+img.elephant {
+  margin: 0 auto; }
+
+@media screen and (max-width: 980px) {
+  img.elephant {
+    width: 100%; } }
+
+@media screen and (max-width: 700px) {
+  img.elephant {
+    width: 100%; } }
+
+@media screen and (max-width: 480px) {
+  img.elephant {
+    width: 100%; } }
+
+@media screen and (max-width: 320px) {
+  img.elephant {
+    width: 100%; } }
