@@ -1,0 +1,310 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/*FONTS*/
+
+@font-face {
+    font-family: 'volter_goldfishregular';
+    src: url('../fonts/volter__28goldfish_29-webfont.eot');
+    src: url('../fonts/volter__28goldfish_29-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/volter__28goldfish_29-webfont.woff') format('woff'),
+         url('../fonts/volter__28goldfish_29-webfont.ttf') format('truetype'),
+         url('../fonts/volter__28goldfish_29-webfont.svg#volter_goldfishregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'techy';
+	src:url('../fonts/techy.eot?-3bjz3c');
+	src:url('../fonts/techy.eot?#iefix-3bjz3c') format('embedded-opentype'),
+		url('../fonts/techy.woff?-3bjz3c') format('woff'),
+		url('../fonts/techy.ttf?-3bjz3c') format('truetype'),
+		url('../fonts/techy.svg?-3bjz3c#techy') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'techy';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/*BASE RULES*/
+
+html {
+    background-color: #00ffff;
+}
+
+body {
+    margin-bottom: 120px;
+}
+
+/*HEADER MODULE*/
+
+header {
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    z-index: 1;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.header-text {
+    float: left;
+    width: 320px;
+    text-align: left;
+    margin: auto;
+    font-family: 'volter_goldfishregular', Arial, sans-serif;
+    color: #00FFFF;
+}
+
+.header-text h1 {
+    font-size: 2em;
+    color: #ffffff;
+    margin-bottom: 6px;
+}
+
+#download-button {
+	box-shadow: inset 0px 1px 0px 0px #99ffff;
+	background-color: #00ffff;
+	-webkit-border-top-left-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	border-top-left-radius: 20px;
+	-webkit-border-top-right-radius: 20px;
+	-moz-border-radius-topright: 20px;
+	border-top-right-radius: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	-moz-border-radius-bottomright: 20px;
+	border-bottom-right-radius: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	border-bottom-left-radius: 20px;
+    transition: background-color .95s ease-in-out;
+	text-indent: 0;
+	display: inline-block;
+	color: black;
+	font-family: 'volter_goldfishregular', Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	height: 55px;
+	line-height: 58px;
+	width: 170px;
+    min-width: 150px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #99ffff;
+    float: right;
+    margin: auto;
+    position: relative;
+}
+
+#download-button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #33ccff), color-stop(1, #99ffff) );
+	background-color: #ffffff;
+}
+
+#download-button:active {
+	position: relative;
+	top: 1px;
+}
+
+/*VIDEO MODULE*/
+
+.video-container {
+    margin-top: 95px;
+    margin-right: 5%;
+    margin-left: 5%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*MAIN BODY MODULE*/
+
+.main-body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    overflow: auto;
+}
+
+@media screen and (min-width:600px) {
+    .main-body img {
+        float: right;
+        width: 50%;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width:599px) {
+    .main-body img {
+        display: inline;
+        width: 100%;
+        padding-bottom: 15px;
+    }
+}
+
+/*FEATURE TABLE MODULE*/
+    
+table {
+    border-collapse:collapse;
+    text-align: left;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: 'volter_goldfishregular', Arial, sans-serif;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    color: white;
+    background-color: black;
+}
+
+tr:nth-child(even) {
+    background-color: #ccffff;
+        
+}
+
+tr:nth-child(odd) {
+    background-color: #66ffff;   
+}
+
+/*FOOTER MODULE*/
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+}
+
+@media screen and (min-width:600px) {
+    footer {
+        height: 30px;
+    }
+}
+
+@media screen and (max-width:599px) {
+    footer {
+        height: 60px;
+    }
+}
+
+.copyright-text {
+    font-family: 'volter_goldfishregular', Arial, sans-serif;
+    display: inline-block;
+    color: white;
+    margin-left: 5%;
+    position: relative;
+    top: 6px;
+    font-size: .6em;
+}
+
+.link-text {
+    font-family: 'volter_goldfishregular', Arial, sans-serif;
+    text-decoration: none;
+    margin-left: 3%;
+    color: #00ffff;
+    position: relative;
+    top: 6px;
+    font-size: .6em;
+}
+
+.link-text:hover {
+    color: #ccffff;   
+}
+
+.link-icon {
+    color: #00ffff;
+    font-size: 1.2em;
+    
+}
+
+@media screen and (min-width:600px) {
+    .link-icon {
+        float: right;
+        position: relative;
+        top: 6px;
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width:599px) {
+    .link-icon {
+        display: inline;
+        margin-left: 5%;
+        position: relative;
+        top: 10px;
+    }
+}
+
+.link-icon:hover {
+    color: #ccffff;   
+}
+
+.icon-google-plus:before {
+	content: "\e600";  
+}
+
+.icon-facebook:before {
+	content: "\e601";
+}
+
+.icon-twitter:before {
+	content: "\e602";
+}
